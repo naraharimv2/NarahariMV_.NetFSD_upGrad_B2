@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Analysis Tool</title>
+</head>
+<body>
+
+<h2>Number Analysis Tool</h2>
+
+<script>
+
+    // Step 1: Store a number (INPUT)
+    let num = 7;   // Change this value to test
+
+    // Step 2: Check Positive or Negative using Ternary Operator
+    let sign = (num >= 0) ? "Positive" : "Negative";
+    console.log("Number is:", sign);
+
+    // Step 3: Check Even or Odd using if-else
+    if (num % 2 === 0) {
+        console.log("Number is Even");
+    } else {
+        console.log("Number is Odd");
+    }
+
+    // Step 4: Print numbers from 1 to given number
+    console.log("Numbers from 1 to " + num + ":");
+
+    for (let i = 1; i <= num; i++) {
+        console.log(i);
+    }
+
+</script>
+
+</body>
+</html>
