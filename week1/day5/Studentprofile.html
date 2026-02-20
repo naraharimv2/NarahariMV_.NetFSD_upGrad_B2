@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile Manager</title>
+    <style>
+        #studentProfile {
+            border: 2px solid black;
+            padding: 15px;
+            width: 250px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Profile</h2>
+
+    <button id="showProfileBtn">Show Profile</button>
+    <button id="updateMarksBtn">Update Marks</button>
+
+    <div id="studentProfile"></div>
+
+    <script>
+        var student = {
+            name: "Amit",
+            rollNo: 101,
+            marks: 75
+        };
+
+        document.getElementById("showProfileBtn").addEventListener("click", function() {
+            updateStudentProfile(student);
+        });
+
+        document.getElementById("updateMarksBtn").addEventListener("click", function() {
+            updateMarks(90);
+        });
+
+        function updateStudentProfile(studentObj) {
+            var profileDiv = document.getElementById("studentProfile");
+            profileDiv.innerHTML = 
+                "<p>Name: " + studentObj.name + "</p>" +
+                "<p>Roll No: " + studentObj.rollNo + "</p>" +
+                "<p>Marks: " + studentObj.marks + "</p>";
+        }
+
+        function updateMarks(newMarks) {
+            student.marks = newMarks;
+            updateStudentProfile(student);
+        }
+    </script>
+
+</body>
+</html>
