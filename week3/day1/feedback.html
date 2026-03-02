@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Feedback Form</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+        }
+        .success {
+            color: green;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Student Feedback Form</h2>
+
+    <form id="feedbackForm">
+        <label>Name:</label><br>
+        <input type="text" id="name"><br>
+        <span id="nameError" class="error"></span><br>
+
+        <label>Email:</label><br>
+        <input type="email" id="email"><br>
+        <span id="emailError" class="error"></span><br>
+
+        <label>Course Rating:</label><br>
+        <select id="rating">
+            <option value="">Select</option>
+            <option>Excellent</option>
+            <option>Good</option>
+            <option>Average</option>
+            <option>Poor</option>
+        </select><br><br>
+
+        <label>Comments:</label><br>
+        <textarea id="comments"></textarea><br><br>
+
+        <button type="button" id="submitBtn">Submit</button>
+    </form>
+
+    <div id="message"></div>
+
+    <script>
+        $(document).ready(function(){
+
+            $("#submitBtn").click(function(){
+
+                let name = $("#name").val().trim();
+                let email = $("#email").val().trim();
+
+                // Clear previous messages
+                $(".error").text("");
+                $("#message").text("");
+
+                if(name === ""){
+                    $("#nameError").text("Please enter your name.");
+                    return;
+                }
+
+                if(email === ""){
+                    $("#emailError").text("Please enter your email.");
+                    return;
+                }
+
+                // Success message
+                $("#message")
+                    .addClass("success")
+                    .text("Thank you! Your feedback has been submitted successfully.");
+
+                // Clear form
+                $("#feedbackForm")[0].reset();
+            });
+
+        });
+    </script>
+
+</body>
+</html>

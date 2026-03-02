@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ Section</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+
+        .question {
+            background: #f2f2f2;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 5px;
+        }
+
+        .answer {
+            display: none;
+            padding: 10px;
+            background: #e6f2ff;
+        }
+
+        .active {
+            background: #007bff;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq">
+        <div class="question">1. What courses do you offer?</div>
+        <div class="answer">We offer Web Development, Java, Python, and Data Science courses.</div>
+
+        <div class="question">2. Do you provide certificates?</div>
+        <div class="answer">Yes, we provide industry-recognized certificates.</div>
+
+        <div class="question">3. Are classes online or offline?</div>
+        <div class="answer">We offer both online and classroom training.</div>
+
+        <div class="question">4. Is placement assistance available?</div>
+        <div class="answer">Yes, we provide placement support and interview training.</div>
+
+        <div class="question">5. What is the course duration?</div>
+        <div class="answer">Duration varies from 2 to 6 months depending on the course.</div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+
+            $(".question").click(function(){
+
+                // Toggle answer
+                $(this).next(".answer").slideToggle();
+
+                // Highlight selected question
+                $(this).toggleClass("active");
+
+            });
+
+        });
+    </script>
+
+</body>
+</html>
