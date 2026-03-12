@@ -1,0 +1,14 @@
+E:\week4\day3\studentgrade\bin\Debug\net8.0\studentgrade.exe
+E:\week4\day3\studentgrade\bin\Debug\net8.0\studentgrade.deps.json
+E:\week4\day3\studentgrade\bin\Debug\net8.0\studentgrade.runtimeconfig.json
+E:\week4\day3\studentgrade\bin\Debug\net8.0\studentgrade.dll
+E:\week4\day3\studentgrade\bin\Debug\net8.0\studentgrade.pdb
+E:\week4\day3\studentgrade\obj\Debug\net8.0\studentgrade.GeneratedMSBuildEditorConfig.editorconfig
+E:\week4\day3\studentgrade\obj\Debug\net8.0\studentgrade.AssemblyInfoInputs.cache
+E:\week4\day3\studentgrade\obj\Debug\net8.0\studentgrade.AssemblyInfo.cs
+E:\week4\day3\studentgrade\obj\Debug\net8.0\studentgrade.csproj.CoreCompileInputs.cache
+E:\week4\day3\studentgrade\obj\Debug\net8.0\studentgrade.dll
+E:\week4\day3\studentgrade\obj\Debug\net8.0\refint\studentgrade.dll
+E:\week4\day3\studentgrade\obj\Debug\net8.0\studentgrade.pdb
+E:\week4\day3\studentgrade\obj\Debug\net8.0\studentgrade.genruntimeconfig.cache
+E:\week4\day3\studentgrade\obj\Debug\net8.0\ref\studentgrade.dll

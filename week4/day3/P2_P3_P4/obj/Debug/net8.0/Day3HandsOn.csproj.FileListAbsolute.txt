@@ -1,0 +1,14 @@
+E:\week4\day3\Day3HandsOn\bin\Debug\net8.0\Day3HandsOn.exe
+E:\week4\day3\Day3HandsOn\bin\Debug\net8.0\Day3HandsOn.deps.json
+E:\week4\day3\Day3HandsOn\bin\Debug\net8.0\Day3HandsOn.runtimeconfig.json
+E:\week4\day3\Day3HandsOn\bin\Debug\net8.0\Day3HandsOn.dll
+E:\week4\day3\Day3HandsOn\bin\Debug\net8.0\Day3HandsOn.pdb
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\Day3HandsOn.GeneratedMSBuildEditorConfig.editorconfig
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\Day3HandsOn.AssemblyInfoInputs.cache
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\Day3HandsOn.AssemblyInfo.cs
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\Day3HandsOn.csproj.CoreCompileInputs.cache
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\Day3HandsOn.dll
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\refint\Day3HandsOn.dll
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\Day3HandsOn.pdb
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\Day3HandsOn.genruntimeconfig.cache
+E:\week4\day3\Day3HandsOn\obj\Debug\net8.0\ref\Day3HandsOn.dll
